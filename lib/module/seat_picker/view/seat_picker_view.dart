@@ -57,7 +57,7 @@ class SeatPickerView extends StatefulWidget {
                   Icon(
                     Icons.square,
                     size: 24.0,
-                    color: Color(0xfff8c321),
+                    color: Colors.red,
                   ),
                   SizedBox(
                     width: 5.0,
@@ -138,7 +138,7 @@ class SeatPickerView extends StatefulWidget {
                               height: 30,
                               child: ElevatedButton(
                                 style: ElevatedButton.styleFrom(
-                                  backgroundColor: const Color(0xfffdc620),
+                                  backgroundColor: const Color.fromARGB(255, 226, 35, 21),
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(12),
                                   ),
@@ -182,8 +182,7 @@ class SeatPickerView extends StatefulWidget {
                                       if (selectedSeatByOther) {
                                         color = const Color(0xffe4e4e4);
                                       } else if (selected) {
-                                        color = const Color(0xfffdc620);
-                                      }
+                                        color = const Color.fromARGB(255, 253, 32, 32)   ;                                  }
 
                                       return InkWell(
                                         onTap: () =>

@@ -101,6 +101,10 @@ class DashboardView extends StatefulWidget {
                           {
                             "label": "Kudus",
                             "value": "Kudus",
+                          },
+                          {
+                            "label": "Solo",
+                            "value": "Solo",
                           }
                         ],
                         onChanged: (value, label) {},
@@ -117,7 +121,13 @@ class DashboardView extends StatefulWidget {
                           {
                             "label": "Kudus",
                             "value": "Kudus",
+                          },
+                          {
+                            "label": "Klaten",
+                            "value": "Klaten",
+
                           }
+
                         ],
                         onChanged: (value, label) {},
                       ),
