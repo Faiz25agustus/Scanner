@@ -11,25 +11,25 @@ class FavoriteView extends StatelessWidget {
         "title": "Konser Musik Rock",
         "date": "2024-12-05",
         "location": "Stadion Gelora Bung Karno, Jakarta",
-        "image": "https://example.com/konser_rock.jpg"
+        "image": "assets/images/rock.png"
       },
       {
         "title": "Pameran Seni Rupa",
         "date": "2024-11-20",
         "location": "Galeri Nasional Indonesia, Jakarta",
-        "image": "https://example.com/pameran_seni.jpg"
+        "image": "assets/images/galeri.png"
       },
       {
         "title": "Pertandingan Sepak Bola",
         "date": "2024-12-10",
         "location": "Stadion Si Jalak Harupat, Bandung",
-        "image": "https://example.com/pertandingan_sepakbola.jpg"
+        "image": "assets/images/stadionj.png"
       },
       {
         "title": "Festival Budaya",
         "date": "2025-01-15",
         "location": "Lapangan Merdeka, Medan",
-        "image": "https://example.com/festival_budaya.jpg"
+        "image": "assets/images/reog.png"
       },
     ];
 
